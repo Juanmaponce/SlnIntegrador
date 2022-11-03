@@ -34,6 +34,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.btnClinicos = new System.Windows.Forms.Button();
             this.btnHabitaciones = new System.Windows.Forms.Button();
+            this.btnEdad = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataMedicoYPacientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,11 +94,22 @@
             this.btnHabitaciones.UseVisualStyleBackColor = true;
             this.btnHabitaciones.Click += new System.EventHandler(this.btnHabitaciones_Click);
             // 
+            // btnEdad
+            // 
+            this.btnEdad.Location = new System.Drawing.Point(495, 35);
+            this.btnEdad.Name = "btnEdad";
+            this.btnEdad.Size = new System.Drawing.Size(121, 23);
+            this.btnEdad.TabIndex = 6;
+            this.btnEdad.Text = "Edad Paciente";
+            this.btnEdad.UseVisualStyleBackColor = true;
+            this.btnEdad.Click += new System.EventHandler(this.btnEdad_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnEdad);
             this.Controls.Add(this.btnHabitaciones);
             this.Controls.Add(this.btnClinicos);
             this.Controls.Add(this.listBox1);
@@ -119,6 +131,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button btnClinicos;
         private System.Windows.Forms.Button btnHabitaciones;
+        private System.Windows.Forms.Button btnEdad;
     }
 }
 

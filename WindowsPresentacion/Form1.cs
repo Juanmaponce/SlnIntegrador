@@ -78,6 +78,13 @@ namespace WindowsPresentacion
              
             }
         }
+
+        private void btnEdad_Click(object sender, EventArgs e)
+        {
+            Paciente paciente = new Paciente("juan" , "ponce", "lujan de cuyo", "+5492616802020", "juanma@paciente.com", "pc2002", 33, Convert.ToDateTime("12-12-1997"));
+
+            MessageBox.Show(paciente.Edad.ToString());
+        }
     }
 }
 
